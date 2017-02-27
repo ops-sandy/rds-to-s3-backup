@@ -1,4 +1,5 @@
 #!/bin/bash
+# Simple script to backup mysql data to s3 bucket.
 BACKUP_DATE=$(date +"%Y-%m-%d")
 BACKUP_OPTIONS="--rr"
 BACKUP_S3PATH='s3://bucketname/folder'
