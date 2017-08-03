@@ -1,12 +1,20 @@
 # RDS to S3 Backup Script
 
 This simple script dumps the data out of the RDS straight to Amazon
+<<<<<<< Updated upstream
 AWS S3 using the `s3cmd` and the native `mysqldump` that comes with Ubuntu.
+=======
+AWS S3 using the `s3cmd` and the native `mysqldump` that comes with ubuntu.
+>>>>>>> Stashed changes
 Steps to install and configure are listed below.
 
 ## Install Prerequisites
 
+<<<<<<< Updated upstream
 This install assumes you are on an amazon ec2 instance running ubuntu 16.04.
+=======
+This install assumes you are on an amazon ec2 instance running Ubuntu 16.04.
+>>>>>>> Stashed changes
 If this is not the case you may use this as a guide to install via your
 favorite flavor of Linux.
 

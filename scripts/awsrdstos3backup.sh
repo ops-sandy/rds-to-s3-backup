@@ -1,5 +1,9 @@
 #!/bin/bash
+<<<<<<< Updated upstream:scripts/rdstos3backup.sh
 # Simple script to backup mysql data to s3 bucket.
+=======
+# script to take backup from RDS to S3
+>>>>>>> Stashed changes:scripts/awsrdstos3backup.sh
 BACKUP_DATE=$(date +"%Y-%m-%d")
 BACKUP_OPTIONS="--rr"
 BACKUP_S3PATH='s3://bucketname/folder'
